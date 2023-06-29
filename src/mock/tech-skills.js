@@ -1,20 +1,32 @@
 export const FRONTEND_SKILLS = [
   {
+    label: 'HTML5',
+    proficiency: '99%',
+    icon: 'vscode-icons:file-type-html',
+    iconClasses: 'text-3xl',
+  },
+  {
+    label: 'CSS3',
+    proficiency: '99%',
+    icon: 'vscode-icons:file-type-css',
+    iconClasses: 'text-3xl',
+  },
+  {
     label: 'React.js',
     proficiency: '97%',
-    icon: 'vscode-icons:file-type-html',
+    icon: 'vscode-icons:file-type-reactjs',
     iconClasses: 'text-3xl',
   },
   {
     label: 'Vue.js',
     proficiency: '95%',
-    icon: 'vscode-icons:file-type-css',
+    icon: 'vscode-icons:file-type-vue',
     iconClasses: 'text-3xl',
   },
   {
     label: 'AngularJS',
     proficiency: '90%',
-    icon: 'logos:javascript',
+    icon: 'vscode-icons:file-type-angular',
     iconClasses: 'text-2xl',
   },
   {
@@ -24,9 +36,9 @@ export const FRONTEND_SKILLS = [
     iconClasses: 'text-2xl',
   },
   {
-    label: 'Web3.js',
+    label: 'Javascript',
     proficiency: '97%',
-    icon: 'vscode-icons:file-type-reactjs',
+    icon: 'vscode-icons:file-type-js',
     iconClasses: 'text-2xl',
   },
   {
@@ -34,6 +46,12 @@ export const FRONTEND_SKILLS = [
     proficiency: '96%',
     icon: 'cib:next-js',
     iconClasses: 'text-3xl',
+  },
+  {
+    label: 'Ruby on Rails',
+    proficiency: '89%',
+    icon: 'vscode-icons:file-type-ruby',
+    iconClasses: 'text-2xl',
   },
   {
     label: 'Gatsby',
@@ -117,6 +135,48 @@ export const BACKEND_SKILLS = [
     iconClasses: 'text-3xl',
   },
   {
+    label: 'Laravel / PHP',
+    proficiency: '90%',
+    icon: 'vscode-icons:file-type-php',
+    iconClasses: 'text-3xl',
+  },
+  {
+    label: 'Golang',
+    proficiency: '90%',
+    icon: 'vscode-icons:file-type-go',
+    iconClasses: 'text-3xl',
+  },
+  {
+    label: 'Python',
+    proficiency: '93%',
+    icon: 'vscode-icons:file-type-python',
+    iconClasses: 'text-3xl',
+  },
+  {
+    label: 'Django',
+    proficiency: '92%',
+    icon: 'vscode-icons:file-type-django',
+    iconClasses: 'text-3xl',
+  },
+  {
+    label: 'Numpy',
+    proficiency: '90%',
+    icon: 'vscode-icons:file-type-numpy',
+    iconClasses: 'text-3xl',
+  },
+  {
+    label: 'Flutter',
+    proficiency: '92%',
+    icon: 'vscode-icons:file-type-flutter',
+    iconClasses: 'text-3xl',
+  },
+  {
+    label: 'Svelte',
+    proficiency: '92%',
+    icon: 'vscode-icons:file-type-svelte',
+    iconClasses: 'text-3xl',
+  },
+  {
     label: 'REST Api',
     proficiency: '93%',
     icon: 'dashicons:rest-api',
@@ -165,6 +225,12 @@ export const BACKEND_SKILLS = [
     iconClasses: 'text-xl',
   },
   {
+    label: 'Azure',
+    proficiency: '91%',
+    icon: 'vscode-icons:file-type-azure',
+    iconClasses: 'text-xl',
+  },
+  {
     label: 'Github',
     proficiency: '95%',
     icon: 'akar-icons:github-fill',
@@ -198,14 +264,20 @@ export const BACKEND_SKILLS = [
 
 export const FRONTEND_DESCRIPTIONS = [
   'Building complex, interactive user interfaces using React, Vue, AngularJs',
-  'Building Large scale Web applications using state management library such as redux.',
-  'Building responsive Web Applications.',
+  'Building large scale Web applications using state management library such as redux',
+  'Optimizing performances by minimizing HTTP requests, reducing file sizes, implementing caching techniques',
+  'Good collaborating with designers and backend developers to integrate front-end interfaces with backend systems and APIs',
+  'Ensuring cross-browser compatibility and Code debugging and troubleshooting',
+  'Building responsive Web Applications and Staying updated with industry trends',
 ];
 
 export const BACKEND_DESCRIPTIONS = [
-  'Building RESTful APIs and GraphQL APIs.',
-  'Worked with various Node.js modules and libraries, such as Express to develop full-stack applications.',
-  'good understanding of database design in technologies such as PostgreSQL and MySQL.',
+  'Developing server-side logic to handle data processing, authentication, security, and business logic',
+  'Building RESTful APIs and GraphQL APIs that allow different components of a web application to communicate with each other',
+  'Working with databases to design and optimize database schemas, write complex queries, and ensure data integrity and performance',
+  'Implementing security measures to handle encryption, authentication, authorization, and data validation',
+  'Integrating with third-party services and APIs such as payment gateways, social media platforms, and cloud services',
+  'Optimizing the performance and scalability of back-end systems by implementing caching mechanisms, load balancing, and database query optimizations',
 ];
 
 export const BLOCKCHAIN_DESCRIPTIONS = ['Building Smart Contracts.', 'Integration with Front End using web3.js'];

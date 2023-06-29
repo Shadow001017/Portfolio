@@ -90,6 +90,14 @@ export default function Skills() {
             </div>
           </div>
         </LoadAnimate>
+        {/* Blockchain Development */}
+        <LoadAnimate>
+          <div className="container mx-auto my-5 flex flex-col items-center p-5 md:flex-row">
+            <div className="mb-10 w-full md:mb-0 md:w-1/2 lg:w-full lg:max-w-lg">
+              <h2>Hello</h2>
+            </div>
+          </div>
+        </LoadAnimate>
         {/* Quote Section  */}
 
         <div className="container mx-auto px-3 py-6">

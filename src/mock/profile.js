@@ -1,7 +1,7 @@
 export const SOCIAL_LINKS = [
   {
-    link: 'https://twitter.com',
-    icon: 'akar-icons:twitter-fill',
+    link: 'https://t.me/Vinny1017',
+    icon: 'akar-icons:telegram-fill',
   },
   {
     link: 'https://github.com/AlterShadow',
@@ -10,6 +10,10 @@ export const SOCIAL_LINKS = [
   {
     link: 'https://www.linkedin.com/in/thomas-ken-0950a427a/',
     icon: 'akar-icons:linkedin-fill',
+  },
+  {
+    link: 'vinny1017',
+    icon: 'akar-icons:discord-fill',
   },
 ];
 

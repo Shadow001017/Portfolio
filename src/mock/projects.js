@@ -3,7 +3,7 @@ import { BACKEND_SKILLS, FRONTEND_SKILLS } from './tech-skills';
 export const PROJECT_CATEGORY = {
   ALL: 'all',
   FULL_STACK: 'full-stack',
-  OPEN_SOURCE: 'open-source',
+  BLOCKCHAIN: 'open-source',
 };
 
 export const TABS = [
@@ -18,8 +18,8 @@ export const TABS = [
     icon: 'bx:code-block',
   },
   {
-    label: 'Open Source',
-    value: PROJECT_CATEGORY.OPEN_SOURCE,
+    label: 'Blockchain',
+    value: PROJECT_CATEGORY.BLOCKCHAIN,
     icon: 'fluent-mdl2:open-source',
   },
 ];
@@ -77,7 +77,7 @@ export const PROJECTS = [
       'Flipkart Clone is done with top-notch features for the entrepreneur startups like Flipkart. It is build with React Js, Node Js.',
     repoLink: 'https://github.com/dhavalCode/flipkart-clone',
     sourceLink: 'https://flipkart-web.vercel.app/',
-    category: [PROJECT_CATEGORY.FULL_STACK, PROJECT_CATEGORY.OPEN_SOURCE],
+    category: [PROJECT_CATEGORY.FULL_STACK],
   },
   {
     imgSrc: 'https://images2.imgbox.com/b5/bb/6f5g9QBE_o.png',
@@ -92,7 +92,7 @@ export const PROJECTS = [
       'Simple and classic modern portfolio for who wants to present himself as a software developer. Portfolio build with highly customizable using Tailwind CSS, Next Js.',
     repoLink: 'https://github.com/dhavalCode/dev-portfolio',
     sourceLink: 'https://dhavalcode.com/',
-    category: [PROJECT_CATEGORY.OPEN_SOURCE],
+    category: [PROJECT_CATEGORY.BLOCKCHAIN],
   },
   {
     imgSrc: 'https://images2.imgbox.com/dd/a3/Fcx8cjEr_o.jpg',
@@ -112,21 +112,22 @@ export const PROJECTS = [
       'The e-commerce to buy kitchen related items. College final year project base on Servlets and JSP (Java)',
     repoLink: 'https://github.com/dhavalcode/ecommerce-java-project',
     sourceLink: '',
-    category: [PROJECT_CATEGORY.FULL_STACK, PROJECT_CATEGORY.OPEN_SOURCE],
+    category: [PROJECT_CATEGORY.BLOCKCHAIN],
   },
 
   {
-    imgSrc: 'https://images2.imgbox.com/9d/d0/zdDVFtFN_o.png',
-    title: 'Netflix Clone - TMDB API Project',
+    imgSrc: 'https://thumbs2.imgbox.com/92/14/sjAoocZt_t.png',
+    title: 'Dex on TON network',
     techIcons: [
-      getSkillByLabel(FRONTEND_SKILLS, 'HTML'),
-      getSkillByLabel(FRONTEND_SKILLS, 'CSS'),
+      getSkillByLabel(FRONTEND_SKILLS, 'Typescript'),
+      getSkillByLabel(FRONTEND_SKILLS, 'Tailwind CSS'),
       getSkillByLabel(FRONTEND_SKILLS, 'React.js'),
+      getSkillByLabel(BACKEND_SKILLS, 'MongoDB'),
       getSkillByLabel(BACKEND_SKILLS, 'REST Api'),
     ],
-    description: 'Netflix clone using react Js. Proving movies details using TMDB API.',
-    repoLink: 'https://github.com/dhavalcode/netflix-clone',
-    sourceLink: 'https://netflix-clone-by-dhaval.web.app/',
-    category: [PROJECT_CATEGORY.OPEN_SOURCE],
+    description: 'Decentralized Exchange on TON network using Ston.fi SDK',
+    repoLink: 'https://github.com/AlterShadow/Dex_TON',
+    sourceLink: 'https://forfriends.me',
+    category: [PROJECT_CATEGORY.BLOCKCHAIN],
   },
 ];
