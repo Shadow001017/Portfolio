@@ -28,8 +28,8 @@ const getSkillByLabel = (skills, techLabel) => skills.find(({ label }) => label 
 
 export const PROJECTS = [
   {
-    imgSrc: 'https://images2.imgbox.com/9a/99/kqwtfUDq_o.png',
-    title: 'apjpro.com - Ecommerce and Marketplace',
+    imgSrc: '/editMentor.png',
+    title: 'editmentor.com - Online video editing training platform',
     techIcons: [
       getSkillByLabel(FRONTEND_SKILLS, 'HTML'),
       getSkillByLabel(FRONTEND_SKILLS, 'CSS'),
@@ -39,9 +39,22 @@ export const PROJECTS = [
       getSkillByLabel(BACKEND_SKILLS, 'Node.js'),
       getSkillByLabel(BACKEND_SKILLS, 'PostgreSQL'),
     ],
-    description: `Apjpro, a local e-commerce company, based in jaipur, Having a tag line "Save every time..." `,
+    description: `It revolutionizes video education by integrating the technical skills of video creation.`,
     repoLink: '',
-    sourceLink: 'https://www.apjpro.com/',
+    sourceLink: 'https://editmentor.com/',
+    category: [PROJECT_CATEGORY.FULL_STACK],
+  },
+  {
+    imgSrc: '/synergy.png',
+    title: 'synergy-nodes.vercel.app - Stake and Grow Your Crypto Holdings!',
+    techIcons: [
+      getSkillByLabel(FRONTEND_SKILLS, 'React.js'),
+      getSkillByLabel(FRONTEND_SKILLS, 'Material UI (mui)'),
+      getSkillByLabel(FRONTEND_SKILLS, 'Redux'),
+    ],
+    description: `Staking is the gateway to passive income in the world of cryptocurrencies. By staking your tokens with us, you actively contribute to the network's security and consensus, while earning attractive rewards in return`,
+    repoLink: '',
+    sourceLink: 'https://synergy-nodes.vercel.app/',
     category: [PROJECT_CATEGORY.FULL_STACK],
   },
   {
@@ -78,24 +91,7 @@ export const PROJECTS = [
     category: [PROJECT_CATEGORY.FULL_STACK],
   },
   {
-    imgSrc: 'https://images2.imgbox.com/b5/bb/6f5g9QBE_o.png',
-    title: 'Developer Portfolio',
-    techIcons: [
-      getSkillByLabel(FRONTEND_SKILLS, 'HTML'),
-      getSkillByLabel(FRONTEND_SKILLS, 'CSS'),
-      getSkillByLabel(FRONTEND_SKILLS, 'Tailwind CSS'),
-      getSkillByLabel(FRONTEND_SKILLS, 'Next.js'),
-      getSkillByLabel(BACKEND_SKILLS, 'Django'),
-      getSkillByLabel(BACKEND_SKILLS, 'MongoDB'),
-    ],
-    description:
-      'Simple and classic modern portfolio for who wants to present himself as a software developer. Portfolio build with highly customizable using Tailwind CSS, Next Js.',
-    repoLink: 'https://github.com/dhavalCode/dev-portfolio',
-    sourceLink: 'https://dhavalcode.com/',
-    category: [PROJECT_CATEGORY.FULL_STACK],
-  },
-  {
-    imgSrc: 'https://images2.imgbox.com/dd/a3/Fcx8cjEr_o.jpg',
+    imgSrc: '/alexlab.png',
     title: 'Kitchen Store  - E-Commerce',
     techIcons: [
       getSkillByLabel(FRONTEND_SKILLS, 'HTML'),
@@ -111,14 +107,14 @@ export const PROJECTS = [
     ],
     description:
       'The e-commerce to buy kitchen related items. College final year project base on Servlets and JSP (Java)',
-    repoLink: 'https://github.com/dhavalcode/ecommerce-java-project',
-    sourceLink: '',
-    category: [PROJECT_CATEGORY.FULL_STACK],
+    repoLink: 'https://github.com/shadowblazer07/ecommerce-java-project',
+    sourceLink: 'https://app.alexlab.co/',
+    category: [PROJECT_CATEGORY.BLOCKCHAIN],
   },
 
   // Blockchain Project
   {
-    imgSrc: 'https://thumbs2.imgbox.com/92/14/sjAoocZt_t.png',
+    imgSrc: '/zigzag.png',
     title: 'Trading Platform on Arbitrum & ZK Sync',
     techIcons: [
       getSkillByLabel(FRONTEND_SKILLS, 'React.js'),
@@ -136,7 +132,7 @@ export const PROJECTS = [
   },
   // Blockchain Project
   {
-    imgSrc: 'https://thumbs2.imgbox.com/92/14/sjAoocZt_t.png',
+    imgSrc: '/tondex.png',
     title: 'Dex on TON network',
     techIcons: [
       getSkillByLabel(FRONTEND_SKILLS, 'Typescript'),
@@ -148,7 +144,7 @@ export const PROJECTS = [
       getSkillByLabel(BACKEND_SKILLS, 'FunC'),
     ],
     description: 'Decentralized Exchange on TON network using Ston.fi SDK',
-    repoLink: 'https://github.com/AlterShadow/Dex_TON',
+    repoLink: 'https://github.com/ShadowBlazer07/Dex_TON',
     sourceLink: 'https://forfriends.me',
     category: [PROJECT_CATEGORY.BLOCKCHAIN],
   },
