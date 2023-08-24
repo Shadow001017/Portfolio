@@ -9,6 +9,7 @@ import LoadAnimate from '../components/animate/LoadAnimate';
 import { BACKEND_DESCRIPTIONS, BACKEND_SKILLS, FRONTEND_DESCRIPTIONS, FRONTEND_SKILLS } from '../mock/tech-skills';
 import codingAnimationData from '../mock/lottie/coding.json';
 import cloudAnimationData from '../mock/lottie/cloudinfra.json';
+import blockchain_svg from '../mock/lottie/blockchain';
 
 // ----------------------------------------------------------------------
 
@@ -18,7 +19,7 @@ export default function Skills() {
       <section className="container mx-auto mt-16 text-center sm:mt-10">
         <HeadingAnimate>
           <h2 className="mb-5 font-lato text-3xl font-semibold text-primary-700 dark:text-primary-300 sm:text-4xl">
-            What i do
+            What can I do?
           </h2>
         </HeadingAnimate>
 
@@ -94,7 +95,7 @@ export default function Skills() {
         <LoadAnimate>
           <div className="container mx-auto my-5 flex flex-col items-center p-5 md:flex-row">
             <div className="mb-10 w-full md:mb-0 md:w-1/2 lg:w-full lg:max-w-lg">
-              <h2>Hello</h2>
+              <AnimatedLottie animationDataFile={cloudAnimationData} />
             </div>
           </div>
         </LoadAnimate>
