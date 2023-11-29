@@ -6,9 +6,17 @@ import ListItem from '../components/skills/ListItem';
 import HeadingAnimate from '../components/animate/HeadingAnimate';
 import LoadAnimate from '../components/animate/LoadAnimate';
 // mock
-import { BACKEND_DESCRIPTIONS, BACKEND_SKILLS, FRONTEND_DESCRIPTIONS, FRONTEND_SKILLS } from '../mock/tech-skills';
+import {
+  BACKEND_DESCRIPTIONS,
+  BACKEND_SKILLS,
+  FRONTEND_DESCRIPTIONS,
+  FRONTEND_SKILLS,
+  CONTRACT_DESCRIPTIONS,
+  CONTRACT_SKILLS,
+} from '../mock/tech-skills';
 import codingAnimationData from '../mock/lottie/coding.json';
 import cloudAnimationData from '../mock/lottie/cloudinfra.json';
+import contractAnimationData from '../mock/lottie/first_lottie.json';
 import blockchain_svg from '../mock/lottie/blockchain';
 
 // ----------------------------------------------------------------------
@@ -95,7 +103,33 @@ export default function Skills() {
         <LoadAnimate>
           <div className="container mx-auto my-5 flex flex-col items-center p-5 md:flex-row">
             <div className="mb-10 w-full md:mb-0 md:w-1/2 lg:w-full lg:max-w-lg">
-              <AnimatedLottie animationDataFile={cloudAnimationData} />
+              <AnimatedLottie animationDataFile={contractAnimationData} />
+            </div>
+            <div className="flex flex-col items-center text-center md:w-1/2 md:items-start md:pl-16 md:text-left lg:flex-grow lg:pl-24">
+              <HeadingAnimate>
+                <h1 className="mb-4 text-xl font-semibold tracking-wide text-primary-700 dark:text-primary-300 sm:text-2xl">
+                  Smart Contract Development
+                </h1>
+              </HeadingAnimate>
+              {/* Tech Stack  */}
+              <div className="my-3 flex flex-wrap justify-items-center gap-x-4 gap-y-7 text-center sm:gap-x-7">
+                {BACKEND_SKILLS.map(({ icon, iconClasses, label, proficiency }, i) => (
+                  <TechSkillIcon
+                    key={`backend-skill-${i}`}
+                    popoverId={`backend-skill-${i}`}
+                    icon={icon}
+                    iconClasses={iconClasses}
+                    label={label}
+                    proficiency={proficiency}
+                  />
+                ))}
+              </div>
+              {/* Description Part  */}
+              <div className="mt-5 w-full space-y-5 sm:mt-7">
+                {BACKEND_DESCRIPTIONS.map((paragraph, i) => (
+                  <ListItem key={`backend-des-${i}`} paragraph={paragraph} />
+                ))}
+              </div>
             </div>
           </div>
         </LoadAnimate>

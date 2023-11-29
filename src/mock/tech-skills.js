@@ -281,3 +281,5 @@ export const BACKEND_DESCRIPTIONS = [
 ];
 
 export const BLOCKCHAIN_DESCRIPTIONS = ['Building Smart Contracts.', 'Integration with Front End using web3.js'];
+
+export const CONTRACT_DESCRIPTIONS = [];
