@@ -17,7 +17,6 @@ import {
 import codingAnimationData from '../mock/lottie/coding.json';
 import cloudAnimationData from '../mock/lottie/cloudinfra.json';
 import contractAnimationData from '../mock/lottie/first_lottie.json';
-import blockchain_svg from '../mock/lottie/blockchain';
 
 // ----------------------------------------------------------------------
 
