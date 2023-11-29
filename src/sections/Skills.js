@@ -152,8 +152,8 @@ export default function Skills() {
                 mentoring junior developers, and delivering top-notch software solutions.
               </p>
               <span className="mt-8 mb-2 inline-block h-1 w-10 rounded bg-primary-700 dark:bg-yellow-300" />
-              <h2 className="title-font text-sm font-medium tracking-wider">Jason Tan</h2>
-              <p className="text-neutral-400">Forever Token CEO</p>
+              <h2 className="title-font text-sm font-medium tracking-wider">Christoph Ritcher</h2>
+              <p className="text-neutral-400">MC2 Finance Founder</p>
             </div>
           </LoadAnimate>
         </div>

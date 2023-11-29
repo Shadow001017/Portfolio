@@ -4,7 +4,7 @@ export const SOCIAL_LINKS = [
     icon: 'akar-icons:telegram-fill',
   },
   {
-    link: 'https://github.com/ShadowBlazer07',
+    link: 'https://github.com/Shadow001017',
     icon: 'akar-icons:github-fill',
   },
   {

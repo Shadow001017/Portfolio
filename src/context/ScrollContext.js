@@ -24,7 +24,7 @@ function ScrollProvider({ children }) {
       behavior: 'smooth',
     });
   };
-  
+
   const jumpToDown = () => {
     window.scrollTo({
       top: 600,
